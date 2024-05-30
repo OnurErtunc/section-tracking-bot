@@ -34,7 +34,7 @@ def send_email(quota):
 
 
 def check_quota():
-    url = "https://stars.bilkent.edu.tr/homepage/ajax/plainOfferings.php?COURSE_CODE=CS&SEMESTER=20232&submit=List%20Selected%20Offerings&rndval=1706614822162"
+    url = "address"
 
     while True:
         response = requests.get(url)
